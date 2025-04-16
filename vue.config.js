@@ -7,4 +7,5 @@ module.exports = defineConfig({
     historyApiFallback: true,
     headers: { "Access-Control-Allow-Origin": "*" }
   },
+  base: '/legeclodb/',
 })
