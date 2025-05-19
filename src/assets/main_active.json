@@ -14593,8 +14593,13 @@
     "area": "単体",
     "range": 2,
     "cost": 2,
-    "debuff":[
-      {"type":"ランダム"}
-    ]
+    "debuff": [
+        {
+          "type": "ランダム",
+          "variant": "中",
+          "amount": 2
+        }
+    ],
+    "note": "ランダムデバフ内訳: `randomTableToString('ランダムデバフ:中')`"
   }
 ]
